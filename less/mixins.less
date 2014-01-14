@@ -1,0 +1,7 @@
+// calculate column widths
+//------------------------
+
+.make_col(@n) {
+  width: ((((@grid_row_width/@grid_cols)*@n)-@grid_gutter_width)+(@grid_gutter_width/(@grid_cols/@n)));
+}
+

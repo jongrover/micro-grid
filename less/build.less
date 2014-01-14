@@ -1,0 +1,48 @@
+// build
+//------
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: @grid_container_width;
+  margin: 0 auto;
+}
+
+.row {
+  width: @grid_row_width;
+  *zoom: 1;
+
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+[class*=span] {
+  float: left;
+  margin-left: @grid_gutter_width;
+}
+
+[class*=span]:nth-child(1) {
+  margin-left: 0;
+}
+
+.span1 { .make_col(1); }
+.span2 { .make_col(2); }
+.span3 { .make_col(3); }
+.span4 { .make_col(4); }
+.span5 { .make_col(5); }
+.span6 { .make_col(6); }
+.span7 { .make_col(7); }
+.span8 { .make_col(8); }
+.span9 { .make_col(9); }
+.span10 { .make_col(10); }
+.span11 { .make_col(11); }
+.span12 { .make_col(12); }
