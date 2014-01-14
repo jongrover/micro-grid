@@ -8,13 +8,21 @@ Based on Bootstraps grid but striped down with less code and does not use their 
 
 ### Contents
 
-/css/micro.grid.css <strong>Development CSS file</strong>
-/css/micro.grid.min.css <strong>Minified Production CSS file < 569 bytes</strong>
+-----------------------------------------------------------
+| /css/micro.grid.css | <strong>Development CSS file</strong>
+------------------------------------------------------------------------
+| /css/micro.grid.min.css | <strong>Minified Production CSS file < 569 bytes</strong>
+---------------------------------------------------------------------------
 
-/less/micro.grid.less <strong>Customizable LESS Development  file</strong>
-/less/vars.less <strong>LESS Variables  file</strong>
-/less/mixins.less <strong>LESS Mixins file</strong>
-/less/build.less <strong>LESS Build file</strong>
+------------------------------------------------------------------------------
+| /less/micro.grid.less | <strong>Customizable LESS Development  file</strong>
+------------------------------------------------------------------------------
+| /less/vars.less | <strong>LESS Variables  file</strong>
+-----------------------------------------------------------
+| /less/mixins.less | <strong>LESS Mixins file</strong>
+----------------------------------------------------------
+| /less/build.less | <strong>LESS Build file</strong>
+------------------------------------------------------
 
 ### Usage
 
