@@ -35,6 +35,7 @@ Based on Bootstraps grid but striped down with less code and does not use their 
     </div>
   </div>
 ```
+<img src="micro-grid-demo.png" alt="micro grid demo image" width="100%" height="auto">
 
 #### To Customize The Grid
 
