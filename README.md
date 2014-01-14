@@ -10,6 +10,7 @@ Based on Bootstraps grid but striped down with less code and does not use their 
 
 | file                    | details                                           |
 |-------------------------|---------------------------------------------------|
+| /index.html             | Demo & Markup                                     |
 | /css/micro.grid.css     | Development CSS file                              |
 | /css/micro.grid.min.css | Minified Production CSS file < 569 bytes</strong> |
 | /less/micro.grid.less   | Customizable LESS Development  file               |
