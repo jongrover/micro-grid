@@ -7,14 +7,15 @@
 Based on Bootstraps grid but striped down with less code and does not use their negative margins on rows, but instead applies margin between all columns excluding the first column which sits against the edge of the row like nature intended.  Use LESS to easily set the column number, and size gutters and containers using (px, %, and ems) to aid in flexible/smarter responsive designs. Breakpoints are not included so you are free to set your own to match your sites specific content needs instead of relying on a heavy framework to dictate your media query breakpoints for you. Power to the developer with Micro Grid.
 
 ### Contents
-| file                    | details                                                   |
-|-------------------------|-----------------------------------------------------------|
-| /css/micro.grid.css     | <strong>Development CSS file</strong>                     |
-| /css/micro.grid.min.css | <strong>Minified Production CSS file < 569 bytes</strong> |
-| /less/micro.grid.less   | <strong>Customizable LESS Development  file</strong>      |
-| /less/vars.less         | <strong>LESS Variables  file</strong>                     |
-| /less/mixins.less       | <strong>LESS Mixins file</strong>                         |
-| /less/build.less        | <strong>LESS Build file</strong>                          |
+
+| file                    | details                                           |
+|-------------------------|---------------------------------------------------|
+| /css/micro.grid.css     | Development CSS file                              |
+| /css/micro.grid.min.css | Minified Production CSS file < 569 bytes</strong> |
+| /less/micro.grid.less   | Customizable LESS Development  file               |
+| /less/vars.less         | LESS Variables  file</strong>                     |
+| /less/mixins.less       | LESS Mixins file</strong>                         |
+| /less/build.less        | LESS Build file</strong>                          |
 
 ### Usage
 
